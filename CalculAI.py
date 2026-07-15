@@ -379,7 +379,7 @@ def send_message(event=None):
     try:
         user_message = inputfield.get()
         API_KEY = \
-            "AIzaSyBiP7qtGFEX12pwczR6TctrdkfwDKRWJ6w"
+            ""
 
         if user_message.strip() != "":
             ecranai.configure(state="normal")
